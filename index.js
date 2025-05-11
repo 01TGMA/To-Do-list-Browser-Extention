@@ -8,8 +8,4 @@ saveBtn.addEventListener( "click", function(){
     for(i = 0; i < lisT.length; i++ ){
         onList.textContent += lisT[i]
     }
-    
-    
-}
-
-)
+})

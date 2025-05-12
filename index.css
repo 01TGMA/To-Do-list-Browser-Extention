@@ -43,3 +43,18 @@ input {
     width: 100%;
     max-width: 300px;
 }
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+li{
+    color: #4CAF50;
+}
+
+h3{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    
+}

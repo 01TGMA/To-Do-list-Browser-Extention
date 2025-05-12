@@ -5,7 +5,14 @@ let onList = document.getElementById("disp")
 
 saveBtn.addEventListener( "click", function(){
     lisT.push(inputB.value)
-    for(i = 0; i < lisT.length; i++ ){
-        onList.textContent += lisT[i]
-    }
+    inputB.value = ""
+    display()
 })
+
+function display(){
+    let disPlay = ""
+    for(i = 0; i < lisT.length; i++ ){
+        disPlay += `<li> ${lisT[i]} </li>`
+        onList.innerHTML = disPlay
+    }
+}

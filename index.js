@@ -12,8 +12,12 @@ saveBtn.addEventListener( "click", function(){
 function display(){
     let disPlay = ""
     for(i = 0; i < lisT.length; i++ ){
-        disPlay += ` 
-        <input type="checkbox"><li> ${lisT[i]} </li>`
+        disPlay += `
+        <li  style=" display: flex; gap: 8px;"> 
+             <input type="checkbox" id="to-do${i}" style=" width: 16px; height: 16px">
+                <label for="to-do${i}">${lisT[i]} </label>
+            
+        </li>`
 
         onList.innerHTML = disPlay
     }

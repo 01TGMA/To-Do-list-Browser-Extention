@@ -27,7 +27,7 @@ input:focus {
     outline: none;
 }
 
-div {
+#whole {
     display: flex;
     flex-direction: column;
     align-items: center;

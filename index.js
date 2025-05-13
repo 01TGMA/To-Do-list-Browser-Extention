@@ -15,8 +15,8 @@ function display(){
     let disPlay = ""
     for(i = 0; i < lisT.length; i++ ){
         disPlay += `
-        <li  style=" display: flex; gap: 8px;"> 
-             <input type="checkbox" id="to-do${i}" style=" width: 16px; height: 16px background-color: green;">
+        <li  style=" display: flex; gap: 8px; word-break: break-word;"> 
+             <input type="checkbox" id="to-do${i}" style=" width: 16px; height: 16px">
                 <label for="to-do${i}">${lisT[i]} </label>
             
         </li>`

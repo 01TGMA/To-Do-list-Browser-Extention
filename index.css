@@ -33,19 +33,17 @@ input:focus {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    width: 280px;
+    width: fit-content;
     max-width: 400px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
-    word-wrap: break-word;
 
 }
 
 input {
     width: 100%;
     max-width: 300px;
-    position: relative;
 }
 
 ul {

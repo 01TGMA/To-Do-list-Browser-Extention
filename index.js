@@ -27,5 +27,6 @@ function display(){
 
 deleteEl.addEventListener("click", function(){
     inputB.value = "" 
-     onList.innerHTML = ""
+    onList.textContent = ""
+    lisT =  []
 })

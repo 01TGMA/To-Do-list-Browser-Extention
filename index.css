@@ -22,9 +22,15 @@ input {
     max-width: 300px;
 }
 
+
 input:focus {
     border-color: #4CAF50;
     outline: none;
+}
+
+input {
+    width: 100%;
+    max-width: 300px;
 }
 
 #whole {
@@ -41,10 +47,7 @@ input:focus {
 
 }
 
-input {
-    width: 100%;
-    max-width: 300px;
-}
+
 
 ul {
     padding: 0;
@@ -76,3 +79,12 @@ h3{
     color: #fff;
     background-color: red;
 }
+
+
+
+#to-do${i}:checked ~ label{
+    text-decoration: line-through;
+    text-decoration-color: grey;
+    color: gray;
+}
+

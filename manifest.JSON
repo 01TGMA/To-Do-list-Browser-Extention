@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "TO-DO LIST",
     "version": "1.0",
-    "description": "Stay organized while browsing with this To-Do List extension! Easily create, edit, and track tasks without leaving your browser. Boost productivity, stay focused, and never miss important tasks again. Designed for efficiency with a sleek, user-friendly interface",
+    "description": "A To-Do List browser extension, for making achieving task while browsing.",
     "icon": {
         "16": "TDicon.png",
         "48": "TDicon.png",

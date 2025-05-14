@@ -82,7 +82,7 @@ h3{
 
 
 
-#to-do${i}:checked ~ label{
+.boxCheck:checked ~ label{
     text-decoration: line-through;
     text-decoration-color: grey;
     color: gray;

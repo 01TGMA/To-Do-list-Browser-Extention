@@ -1,7 +1,7 @@
 # To-Do-List-Browser-Extention
 
 ## Discription
-A To-Do List browser extension, for making achieving task while browsing. 
+Stay organized while browsing with this To-Do List extension! Easily create, edit, and track tasks without leaving your browser. Boost productivity, stay focused, and never miss important tasks again. Designed for efficiency with a sleek, user-friendly interface
 
 ### features
 * Add task button

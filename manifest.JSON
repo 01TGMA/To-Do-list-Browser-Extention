@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "TO-DO LIST",
+    "version": "1.0",
+    "description": "A simple To-Do list extention that helps to get task done",
+    "icon": {
+        "16": "TDicon.png"
+
+    }
+
+}

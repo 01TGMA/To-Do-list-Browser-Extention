@@ -2,6 +2,10 @@
     "manifest_version": 3,
     "name": "TO-DO LIST",
     "version": "1.0",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "TDicon.png"
+    },
     "description": "A To-Do List browser extension, for making achieving task while browsing.",
     "icon": {
         "16": "TDicon.png",

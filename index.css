@@ -1,3 +1,8 @@
+body {
+    width: 285px;
+    height: 350px;
+}
+
 button {
     background-color: #4CAF50;
     color: white;

@@ -7,7 +7,7 @@
         "default_icon": "TDicon.png"
     },
     "description": "A To-Do List browser extension, for making achieving task while browsing.",
-    "icon": {
+    "icons": {
         "16": "TDicon.png",
         "48": "TDicon.png",
         "128": "TDicon.png"

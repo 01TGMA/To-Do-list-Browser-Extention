@@ -1,0 +1,29 @@
+#menuSpans{
+    display:grid;
+    width: fit-content;
+    height: fit-content;
+    gap: 0.2rem;
+}
+
+#menuSpans span{
+    border: 0.12rem black solid;
+    width: 1.5rem;
+}
+
+
+#menuSpans:hover span:nth-child(1){
+    transform: rotate(45deg);
+    transform-origin: top left ;
+    animation-delay: 240ms;
+}
+
+
+#menuSpans:hover span:nth-child(3){
+    transform: rotate(-45deg);
+    transform-origin: bottom left;
+    animation-delay: 240ms;
+}
+
+#menuSpans:hover span:nth-child(2){
+opacity: 0;
+}

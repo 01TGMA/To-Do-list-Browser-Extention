@@ -4,7 +4,10 @@ import Date from "./components/DateTime";
 function App() {
   return (
     <>
-      <Date />
+      <div id="header">
+        <Menu />
+        <Date />
+      </div>
     </>
   );
 }

@@ -1,4 +1,4 @@
-#menuSpans{
+.menuSpans{
     display:grid;
     width: fit-content;
     height: fit-content;
@@ -6,22 +6,22 @@
     gap: 0.2rem;
 }
 
-#menuSpans span{
+.menuSpans span{
     border: 0.12rem black solid;
     width: 1.5rem;
     transition: all 0.3s ease-in-out;
 }
 
 
-#menuSpans:hover span:nth-child(1){
+.menuSpans.open span:nth-child(1){
     transform:  translate(0px, 6px) rotate(-45deg);
 }
 
 
-#menuSpans:hover span:nth-child(3){
+.menuSpans.open span:nth-child(3){
     transform:  translate(0px, -6px) rotate(45deg);
 }
 
-#menuSpans:hover span:nth-child(2){
+.menuSpans.open span:nth-child(2){
 opacity: 0;
 }

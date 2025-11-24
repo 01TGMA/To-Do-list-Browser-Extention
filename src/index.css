@@ -23,5 +23,10 @@
 }
 
 .menuSpans.open span:nth-child(2){
-opacity: 0;
+    opacity: 0;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
 }

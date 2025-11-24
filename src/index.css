@@ -37,3 +37,15 @@
     width: fit-content;
     margin: 0;
 }
+
+.MenuList{
+    display: none;
+    width: 50vw;
+    height: 100vh;
+    background-color: black;
+    left: 0;
+}
+
+.MenuList.open{
+    display: block;
+}

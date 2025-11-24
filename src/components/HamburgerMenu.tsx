@@ -12,6 +12,8 @@ function Menu() {
         <span></span>
         <span></span>
       </div>
+
+      <div className={`MenuList ${open ? "open" : ""}`}></div>
     </>
   );
 }

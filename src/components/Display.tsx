@@ -21,8 +21,11 @@ function Display() {
     <>
       <div className="CreateTask">
         <Input />
-        <Buttons type="addTask" name="Add Task" />
-        <Buttons type="deleteTask" name="Delete" />
+        <div className="TaskButtons">
+          {" "}
+          <Buttons type="addTask" name="Add Task" />
+          <Buttons type="deleteTask" name="Delete" />
+        </div>
       </div>
     </>
   );

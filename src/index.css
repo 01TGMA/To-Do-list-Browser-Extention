@@ -1,8 +1,6 @@
 body{  
     width: 280px;
     height: 223px;
-    display: flex;
-    flex-direction: column;
     padding:    3px;
     border: 1px solid #ccc;
     border-radius: 10px;

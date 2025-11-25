@@ -49,3 +49,11 @@
 .MenuList.open{
     display: block;
 }
+
+.addTask{
+    background-color: rgb(34, 215, 34);
+}
+
+.deleteTask{
+    background-color: red;
+}

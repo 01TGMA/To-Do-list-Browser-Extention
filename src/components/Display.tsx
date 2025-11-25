@@ -8,6 +8,14 @@ function Input() {
   );
 }
 
+function Buttons({ name }: { name: string }) {
+  return (
+    <>
+      <button> {name} </button>
+    </>
+  );
+}
+
 function Display() {
   return (
     <>

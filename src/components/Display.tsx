@@ -1,5 +1,9 @@
 import "../App.css";
-
+let arr = [3];
+function arrHandler() {
+  arr.push(1);
+  console.log(arr);
+}
 function Input() {
   return (
     <>
@@ -11,7 +15,10 @@ function Input() {
 function Buttons({ name, type }: { name: string; type: string }) {
   return (
     <>
-      <button className={type}> {name} </button>
+      <button className={type} onClick={arrHandler}>
+        {" "}
+        {name}
+      </button>
     </>
   );
 }

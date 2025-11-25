@@ -21,7 +21,7 @@ function Display() {
     <>
       <div className="CreateTask">
         <Input />
-        <Buttons type="addTask" name="Add" />
+        <Buttons type="addTask" name="Add Task" />
         <Buttons type="deleteTask" name="Delete" />
       </div>
     </>

@@ -8,10 +8,13 @@ function Input() {
   );
 }
 
-function Buttons({ name }: { name: string }) {
+function Buttons({ name, type }: { name: string; type: string }) {
   return (
     <>
-      <button> {name} </button>
+      <button>
+        {" "}
+        className={type} {name}{" "}
+      </button>
     </>
   );
 }
@@ -21,8 +24,8 @@ function Display() {
     <>
       <div className="CreateTask">
         <Input />
-        <Buttons name="Add" />
-        <Buttons name="Delete" />
+        <Buttons type="addTask" name="Add" />
+        <Buttons type="deleteTask" name="Delete" />
       </div>
     </>
   );

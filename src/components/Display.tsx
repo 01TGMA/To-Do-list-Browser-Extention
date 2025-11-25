@@ -11,10 +11,7 @@ function Input() {
 function Buttons({ name, type }: { name: string; type: string }) {
   return (
     <>
-      <button>
-        {" "}
-        className={type} {name}{" "}
-      </button>
+      <button className={type}> {name} </button>
     </>
   );
 }

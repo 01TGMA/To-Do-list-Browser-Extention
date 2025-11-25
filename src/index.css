@@ -51,9 +51,20 @@
 }
 
 .addTask{
-    background-color: rgb(34, 215, 34);
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
 }
 
 .deleteTask{
     background-color: red;
+}
+
+.addTask:hover {
+    background-color: #45a049;
 }

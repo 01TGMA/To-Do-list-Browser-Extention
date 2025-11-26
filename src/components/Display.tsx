@@ -1,15 +1,20 @@
 import "../App.css";
 let arr = [3];
-function arrHandler() {
-  arr.push(1);
-  console.log(arr);
-}
+
 function Input() {
   return (
     <>
       <input type="text" id="TaskInput" />
     </>
   );
+}
+
+function arrHandler() {
+  let inputValue: any;
+  inputValue = document.getElementById("TaskInput");
+  arr.push(inputValue.value);
+
+  console.log(arr);
 }
 
 function Buttons({ name, type }: { name: string; type: string }) {

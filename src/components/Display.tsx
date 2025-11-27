@@ -8,13 +8,20 @@ function Input() {
     </>
   );
 }
-
+let display = "";
 function arrHandler() {
   let inputValue: any;
   inputValue = document.getElementById("TaskInput");
   arr.push(inputValue.value);
 
-  console.log(arr);
+  {
+    arr.map((task, i) => (display += ` ${i} ${task}`));
+
+    console.log(display);
+  }
+}
+function Show() {
+  return <>{display}</>;
 }
 
 function Buttons({ name, type }: { name: string; type: string }) {
@@ -37,6 +44,9 @@ function Display() {
           {" "}
           <Buttons type="addTask" name="Add Task" />
           <Buttons type="deleteTask" name="Delete" />
+        </div>
+        <div>
+          <Show />
         </div>
       </div>
     </>

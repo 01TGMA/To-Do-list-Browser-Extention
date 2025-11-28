@@ -1,27 +1,43 @@
+import { useState } from "react";
 import "../App.css";
-let arr = [3];
+const [arr, setArr] = useState<string[]>([]);
+const [inputValue, setInputValue] = useState("");
 
 function Input() {
   return (
     <>
-      <input type="text" id="TaskInput" />
+      <input
+        type="text"
+        id="TaskInput"
+        value={inputValue}
+        onChange={(e) => setInputValue(e.target.value)}
+      />
     </>
   );
 }
 let display = "";
 function arrHandler() {
-  let inputValue: any;
-  inputValue = document.getElementById("TaskInput");
-  arr.push(inputValue.value);
+  if (!inputValue.trim()) return;
+  setArr((prev) => [...prev, inputValue]);
+  setInputValue("");
 
   {
-    arr.map((task, i) => (display += ` ${i} ${task}`));
+    // arr.map((task, i) => (display += ` ${i} ${task}`));
 
     console.log(display);
   }
 }
 function Show() {
-  return <>{display}</>;
+  return (
+    <>
+      {arr.map((task, i) => (
+        <div key={i}>
+          {" "}
+          {i} {task}
+        </div>
+      ))}
+    </>
+  );
 }
 
 function Buttons({ name, type }: { name: string; type: string }) {

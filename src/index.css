@@ -1,0 +1,102 @@
+body{  
+    width: 280px;
+    height: 223px;
+    padding:    3px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.menuSpans{
+    display:grid;
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+    gap: 0.2rem;
+}
+
+.menuSpans span{
+    border: 0.12rem black solid;
+    width: 1.5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.menuSpans.open span:nth-child(1){
+    transform:  translate(0px, 6px) rotate(-45deg);
+}
+
+.menuSpans.open span:nth-child(3){
+    transform:  translate(0px, -6px) rotate(45deg);
+}
+
+.menuSpans.open span:nth-child(2){
+    opacity: 0;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.time{
+    height: fit-content;
+    width: fit-content;
+    margin: 0;
+}
+
+.MenuList{
+    display: none;
+    width: 50vw;
+    height: 100vh;
+    background-color: black;
+    left: 0;
+}
+
+.MenuList.open{
+    display: block;
+}
+
+.addTask{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.deleteTask{
+    background-color: white;
+    color: gray;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 11px;
+}
+
+.deleteTask:hover{
+    color: #fff;
+    background-color: red;
+}
+
+.addTask:hover {
+    background-color: #45a049;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 90%;
+    max-width: 300px;
+}
+
+input:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
